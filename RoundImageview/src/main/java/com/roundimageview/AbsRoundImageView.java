@@ -154,27 +154,3 @@ public abstract class AbsRoundImageView extends AppCompatImageView {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,7 +7,6 @@ import android.util.AttributeSet;
 
 public class CircleImageView extends AbsRoundImageView {
 
-
     public CircleImageView(Context context) {
         this(context, null, 0);
     }
@@ -49,6 +48,5 @@ public class CircleImageView extends AbsRoundImageView {
         final float radius = Math.min(width, height) * 0.5f;
         borderPath.addCircle(cx, cy, radius - halfBorderWidth, Path.Direction.CW);
     }
-
 
 }

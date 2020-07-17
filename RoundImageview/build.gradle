@@ -1,5 +1,18 @@
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'pres4ed'                 //bintray.com用户名
+    groupId = 'com.roundimageview'             //jcenter上的路径
+    artifactId = 'RoundImageview'        //项目名称
+    publishVersion = '1.0.0'          //版本号
+    desc = 'common'
+    website = 'https://github.com'
+}
+
+
+
 android {
     compileSdkVersion 28
 

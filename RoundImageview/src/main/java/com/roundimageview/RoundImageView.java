@@ -6,8 +6,6 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 
-import static java.security.AccessController.getContext;
-
 /**
  * 可指定任意圆角
  */
